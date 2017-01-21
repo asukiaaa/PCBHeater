@@ -1,9 +1,9 @@
 #include <SPI.h>
 #include "Adafruit_MAX31855.h"
 
-#define DO   3
-#define CS   4
-#define CLK  5
+#define DO   9
+#define CS   8
+#define CLK  7
 #define RELAY_PIN 6
 
 #define HEATER_OFF_TEMP 240
